@@ -1,11 +1,32 @@
 <h2 align="Center">  NanoLeaf <<i>Local API</i>>  </h2>
 
-### Currently working on the API docs for NanoLeaf devices.
-<h3> updates coming soon </h3>
-
 ## Table of Contents 
- 1. Getting Started (PreReq) 
+ 1. Getting Started 
  2. Setting your Environment 
+ 3. File Content 
+
+
+        .
+        ├── ...
+        ├── NanoLeaf Getting Started    # Folder
+        │   ├── Add an API user         # POST | Create an API user
+        ├── Basic                       # Folder
+        │   └── Get controller info     # GET | Get controller info
+        │   └── Turn on                 # PUT | Turn NanoLeaf on
+        │   └── Turn off                # PUT | Turn NanoLeaf off
+        │   └── List Effects            # GET | List installed effects
+        │   └── Activte Effect          # PUT | Activate an effect
+        │   └── Identify                # PUT | Identify your NanoLeaf
+        ├── ...
+        ├── Auth                       # Folder (coming soon)
+        ├── State                      # Folder (coming soon)
+        ├── Effects                    # Folder (coming soon)
+        ├── Layout                     # Folder (coming soon)
+        ├── Rhythm                     # Folder (coming soon)
+        └── ...
+
+
+
 
 ## Getting Started
  - Import NanoLeaf JSON file 
@@ -36,3 +57,6 @@
 ## Setting your Environment 
  - These examples will be from Insomnia API
  - Base Environment ```{"ipAddress":"xx.xx.xx.xxL18021","authToken":"XXXXX"} ```
+
+
+<h2 align="Center">  More updates coming soon </h2>
