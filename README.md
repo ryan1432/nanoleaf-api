@@ -8,21 +8,49 @@
 
         .
         ├── ...
-        ├── NanoLeaf Getting Started    # Folder
-        │   ├── Add an API user         # POST | Create an API user
-        ├── Basic                       # Folder
-        │   └── Get controller info     # GET | Get controller info
-        │   └── Turn on                 # PUT | Turn NanoLeaf on
-        │   └── Turn off                # PUT | Turn NanoLeaf off
-        │   └── List Effects            # GET | List installed effects
-        │   └── Activte Effect          # PUT | Activate an effect
-        │   └── Identify                # PUT | Identify your NanoLeaf
-        ├── ...
-        ├── Auth                       # Folder (coming soon)
-        ├── State                      # Folder (coming soon)
-        ├── Effects                    # Folder (coming soon)
-        ├── Layout                     # Folder (coming soon)
-        ├── Rhythm                     # Folder (coming soon)
+        ├── NanoLeaf Getting Started        # Folder
+        │   ├── Add an API user             # POST | Create an API user
+        ├── Basic                           # Folder
+        │   └── Get controller info         # GET | Get controller info
+        │   └── Turn on                     # PUT | Turn NanoLeaf on
+        │   └── Turn off                    # PUT | Turn NanoLeaf off
+        │   └── List Effects                # GET | List installed effects
+        │   └── Activte Effect              # PUT | Activate an effect
+        │   └── Identify                    # PUT | Identify your NanoLeaf
+        ├── Auth                            # Folder 
+        │   └── Delete user                 # DEL | Remove API user
+        │   └── Add an API user             # POST | Create an API user
+        ├── State                           # Folder 
+        │   └── On/Off                      # GET | Get current state (On/Off)
+        │   └── On/Off - update             # PUT | Update state (On/Off)
+        │   └── Brightness                  # GET | Get the current brightness
+        │   └── Brightness - update         # PUT | Update the brightness
+        │   └── Hue                         # GET | Get the current Hue
+        │   └── Hue - update                # PUT | Update the hue
+        │   └── Saturation                  # GET | Get the current Saturation
+        │   └── Saturation - update         # PUT | Update the Saturation
+        │   └── Color Temperature           # GET | Get the current Color Temperature
+        │   └── Color Temperature - update  # PUT | Update the Color Temperature
+        │   └── Color Mode                  # GET | Get the current Color Mode
+        ├── Effects                         # Folder
+        │   └── Select                      # GET | Get current effect
+        │   └── Select - update             # PUT | Update effect
+        │   └── List                        # GET | Get the list of installed effects
+        │   └── Write                       # PUT | write effect to NanoLeaf
+        ├── Layout                          # Folder
+        │   └── Global Orientation          # GET | Get orientation info
+        │   └── Global Orientation - update # PUT | Update orientation info
+        │   └── Layout                      # GET | Get the current layout
+        ├── Rhythm                          # Folder 
+        │   └── Rhythm connected            # GET | Get the rhythm connection info
+        │   └── Rhythm active               # GET | Get the rhythm active status
+        │   └── Rhythm id                   # GET | Get the rhythm id
+        │   └── Hardware version            # GET | Get the hardware information
+        │   └── Firmware version            # GET | Get the firmware information
+        │   └── Aux available               # GET | Get the aux status
+        │   └── Rhythm mode                 # GET | Get the rhythm mode
+        │   └── Rhythm mode - update        # GET | Update the rhythm mode
+        │   └── Rhythm position             # GET | Get the x,y position of the rhythm controller
         └── ...
 
 
